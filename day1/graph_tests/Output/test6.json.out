@@ -1,0 +1,6 @@
+digraph main {
+  b1;
+  lbl;
+  lbl -> lbl;
+  b1 -> lbl;
+}
