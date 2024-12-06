@@ -1,0 +1,15 @@
+digraph main {
+  body;
+  endif;
+  entry;
+  exit;
+  loop;
+  then;
+  loop -> body;
+  entry -> loop;
+  body -> then;
+  body -> endif;
+  endif -> loop;
+  then -> endif;
+  loop -> exit;
+}

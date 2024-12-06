@@ -1,8 +1,8 @@
 digraph main {
+  b1;
   end;
   left;
   right;
-  start;
   b1 -> left;
   b1 -> right;
   right -> end;

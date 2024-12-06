@@ -1,10 +1,10 @@
 digraph main {
   end;
+  entry;
   left;
   right;
-  start;
-  b1 -> left;
-  b1 -> right;
+  entry -> left;
   right -> end;
+  entry -> right;
   left -> end;
 }

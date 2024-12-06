@@ -1,0 +1,10 @@
+digraph main {
+  entry;
+  while.body;
+  while.cond;
+  while.finish;
+  while.body -> while.cond;
+  while.cond -> while.body;
+  entry -> while.cond;
+  while.cond -> while.finish;
+}
