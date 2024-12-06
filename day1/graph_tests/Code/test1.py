@@ -77,7 +77,7 @@ def extract_cfg(input_file_path, output_file_path):
         outfile.write(dot_format)
 
 # Example usage
-input_file_path = r'/home/cslinux/Desktop/temp/compiler-workshop-graphs/day1/graph_tests/test22.json'
-output_file_path = r'/home/cslinux/Desktop/temp/compiler-workshop-graphs/day1/graph_tests/optemp/test22.json.out'
+input_file_path = r'/home/cslinux/Desktop/temp/compiler-workshop-graphs/day1/graph_tests/test33.json'
+output_file_path = r'/home/cslinux/Desktop/temp/compiler-workshop-graphs/day1/graph_tests/optemp/test33.json.out'
 
 extract_cfg(input_file_path, output_file_path)
