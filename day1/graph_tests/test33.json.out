@@ -1,0 +1,8 @@
+digraph main {
+  b1;
+  here;
+  there;
+  b1 -> here;
+  b1 -> there;
+  here -> there;
+}

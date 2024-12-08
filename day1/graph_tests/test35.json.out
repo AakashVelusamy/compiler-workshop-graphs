@@ -1,0 +1,10 @@
+digraph main {
+  entry;
+  left;
+  right;
+  zexit;
+  entry -> left;
+  entry -> right;
+  left -> zexit;
+  right -> zexit;
+}

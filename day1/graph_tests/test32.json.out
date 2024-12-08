@@ -1,0 +1,7 @@
+digraph main {
+  b1;
+  b2;
+  end;
+  b1 -> end;
+  b2 -> end;
+}

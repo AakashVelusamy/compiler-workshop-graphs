@@ -1,0 +1,10 @@
+digraph main {
+  b1;
+  left;
+  right;
+  end;
+  b1 -> left;
+  b1 -> right;
+  left -> end;
+  right -> end;
+}

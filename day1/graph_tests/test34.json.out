@@ -1,0 +1,10 @@
+digraph main {
+  b1;
+  true;
+  false;
+  zexit;
+  b1 -> true;
+  b1 -> false;
+  true -> zexit;
+  false -> zexit;
+}

@@ -1,0 +1,10 @@
+digraph main {
+  b1;
+  header;
+  body;
+  end;
+  b1 -> header;
+  header -> body;
+  header -> end;
+  body -> header;
+}

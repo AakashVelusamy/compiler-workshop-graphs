@@ -1,0 +1,10 @@
+digraph main {
+  entry;
+  loop;
+  br;
+  exit;
+  entry -> loop;
+  loop -> br;
+  br -> exit;
+  br -> loop;
+}

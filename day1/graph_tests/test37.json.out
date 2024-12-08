@@ -1,0 +1,21 @@
+digraph func {
+  b1;
+}
+digraph loop {
+  entry;
+  "loop.header";
+  "loop.body";
+  "loop.print";
+  "loop.next";
+  "loop.end";
+  entry -> "loop.header";
+  "loop.header" -> "loop.body";
+  "loop.header" -> "loop.end";
+  "loop.body" -> "loop.print";
+  "loop.body" -> "loop.next";
+  "loop.print" -> "loop.next";
+  "loop.next" -> "loop.header";
+}
+digraph main {
+  b1;
+}

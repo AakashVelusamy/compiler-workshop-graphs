@@ -1,0 +1,8 @@
+digraph main {
+  "while.cond";
+  "while.body";
+  "while.finish";
+  "while.cond" -> "while.finish";
+  "while.cond" -> "while.body";
+  "while.body" -> "while.cond";
+}
