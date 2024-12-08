@@ -11,4 +11,8 @@
 
 ### Day 2
 
-- [Python -> C/C++](https://docs.google.com/presentation/d/1Cub_xklUwZdWWk8ElkT_ejkhKcSEXAoVPakzQOl5hrE/edit#slide=id.g31c8a21e2d5_0_5)
+- [Python -> C/C++](https://docs.google.com/presentation/d/1Cub_xklUwZdWWk8ElkT_ejkhKcSEXAoVPakzQOl5hrE/edit?usp=sharing)
+
+### Day 3
+
+- [Intermediate Representation](https://docs.google.com/presentation/d/1Sz8iu_ka-szH2Rx2-ES0SwX4LQq1_wq1imjZzCExOMU/edit?usp=sharing)
